@@ -1,0 +1,29 @@
+DataDir: '/project/shared/kapur_rajaram_no_phi/Publications/202112_CancerResearch_BAP1/Final_Data/'
+
+ResponseData: 'Intermediate_Results/'
+Tumor: 'Intermediate_Results/Tumor/'
+
+Data:
+  AllSamples: 'Data_Files/WSI/allSamples_UpdatedCV_BL.csv'
+  FoldsIdx: 'Data_Files/WSI/allGene_Updated_3FoldIndex.pkl'
+  ImageData: 'Raw_Slide_Images/'
+  FocalPatches: 'Patch_Data/WSI-LL/'
+  PatchData: 'Patch_Data/' 
+Slide_Level:
+  PanCancer: 'Data_Files/TCGA/cBioPortal_TCGA_KIRC_PanCancer_Atlas_NoCNA.csv'
+  Genetics: 'Data_Files/TCGA/tcga_genetics_PanCancerNoCNA.csv'
+  Missense: 'Data_Files/TCGA/tcga_genetics_PanCancerMissenseFiltered.csv'
+  GradeTCGA: 'Data_Files/TCGA/tcga_grade.csv'
+Region_Level: 
+  XmlDir: 'Data_Files/WSI/LocalizedLoss/'
+  TMALayout: 'Data_Files/TMA/'
+Survival:
+  TMA1: 'Data_Files/TMA/Survival/TMA survival.xlsx'
+  TMA2: 'Data_Files/TMA/Survival/Anonymized_Survival_v2.xls'
+Nuclear:
+    Features: 'Intermediate_Results/Nuclear/Features/'
+    CombinedFeats: 'Intermediate_Results/Nuclear/Features/Combined_Features_Clean.pkl'
+    Masks: 'Intermediate_Results/Nuclear/Masks/'
+
+NormTarget: 'Data_Files/Normalization/targetRGBData.npy'
+StatAnnot: 'External/statannot/'

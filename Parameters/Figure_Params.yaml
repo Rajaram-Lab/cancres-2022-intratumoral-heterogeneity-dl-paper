@@ -1,0 +1,32 @@
+# Figure_Params.yaml file
+colors: {BAP1 : [0.75,0,0], PBRM1 : [0,0,0.75], SETD2 : [0,0.75,0.75]}
+wtColors: {'BAP1':[0,0.59,0],'PBRM1':[1,0.65,0],'SETD2':[0.75,0.75,0.75]}
+mutCmaps: {BAP1 : ['Reds','Greens'], PBRM1 : ['Blues','Oranges']}
+geneList: 
+  - BAP1
+  - PBRM1
+  - SETD2
+
+fontsize : 16
+
+# The following parameters were used to generate the tumor masks for the patches used to train these models
+TumorParams:
+  tumorPatchSize: 256
+  tumorStride: 16
+  tumorDsf: 4
+
+cohortNames:
+  - TMA1
+  - TMA2
+  - PDX1
+
+RegionParams:
+  mpp: 0.4936  # microns per pixel
+  downSampleFactor: 100   #32 FCN, 100 tessellation
+  threshold: 0.7   #threshold for the ratio of tumor composition that must be present to use grid square
+  tessellationStride: 100 #stride for tessellation code. Should match variables in trainParams
+
+NuclearParams:
+  minNuclearArea: 30 
+  maxNuclearArea: 5000
+  numberOfFeatures: 36

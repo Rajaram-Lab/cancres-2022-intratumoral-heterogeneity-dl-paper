@@ -1,0 +1,37 @@
+# Figure_Params.yaml file
+MIL_Models:
+  BaseDir: 'Models/MIL/'
+  BAP1:
+    0: 'BAP1_0F_Slide-15.hdf5'
+    1: 'BAP1_1F_Slide-15.hdf5'
+    2: 'BAP1_2F_Slide-15.hdf5'
+  PBRM1:
+    0: 'PBRM1_0F_Slide-15.hdf5'
+    1: 'PBRM1_1F_Slide-15.hdf5'
+    2: 'PBRM1_2F_Slide-15.hdf5'
+  SETD2:
+    0: 'SETD2_0F_Slide-15.hdf5'
+    1: 'PBRM1_1F_Slide-15.hdf5'
+    2: 'PBRM1_2F_Slide-15.hdf5'
+
+
+FCN_Models:
+  BaseDir: 'Models/FCN/'
+  BAP1: 
+    - 'BAP1_0F_Region-10.hdf5'
+    - 'BAP1_1F_Region-10.hdf5'
+    - 'BAP1_2F_Region-10.hdf5'
+  PBRM1:
+    - 'PBRM1_0F_Region-10.hdf5'
+    - 'PBRM1_1F_Region-10.hdf5'
+    - 'PBRM1_2F_Region-10.hdf5'
+  SETD2:
+    - 'SETD2_0F_Region-10.hdf5'
+    - 'SETD2_1F_Region-10.hdf5'
+    - 'SETD2_2F_Region-10.hdf5'
+
+
+Tumor_Model: 'Models/Tumor/tumor_classifier.pkl'
+
+Nuclear_Model: 'Models/Nuclear/Nuclear_Unet.h5'
+

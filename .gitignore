@@ -1,0 +1,15 @@
+*.out
+*.pyc
+*.hdf5
+.vscode/
+*.sh.o*
+*.sh.e*
+*.swp
+__pycache__/*
+__pycache__
+*.pyc
+
+.ipynb_checkpoints/
+*DS_Store*
+._*
+Untitled*.ipynb

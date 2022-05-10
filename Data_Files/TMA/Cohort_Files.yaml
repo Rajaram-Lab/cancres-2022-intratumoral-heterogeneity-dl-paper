@@ -1,0 +1,23 @@
+# Training_Params.yaml file
+TMA1: 
+  - 200430.svs
+  - 200432.svs
+  - 200431.svs
+
+TMA2: 
+  - 1003657.svs
+  - 1003662.svs
+  - 1003658.svs
+  - 1003660.svs
+  - 1003656.svs
+  - 1003653.svs
+  - 1003654.svs
+  - 1003652.svs
+  - 1003661.svs
+  - 1003655.svs
+
+PDX1: 
+  - 1001878_TE2.svs
+  - 1001879_TE3.svs
+
+

@@ -1,0 +1,56 @@
+# Training_Params.yaml file
+
+geneList: 
+  - BAP1
+  - PBRM1
+  - SETD2
+
+# parameters used to train the region model
+Region:
+  numEpochs: 10
+  numberOfFolds: 3
+  magLevel: '20X'
+  patchSize: 224
+  numberOfClasses: 2
+  lr: 0.0001
+  momentum: 0.9
+
+# parameters used to evaluate the region model with tessellation
+Tessellation:
+  stride: 100
+  patchSize: 224
+  nBox: 16
+
+# parameters used to train the MIL slide level models
+MIL:
+  max_epoch : 15 
+  magLevel : '20X'
+  batchSize : 48
+  input_dim : [224, 224, 3]
+  lr : 0.00001
+  decay : 0.0005
+  momentum : 0.9
+
+# downsamplefactors for each cohort
+DSF:
+  TMA:
+    TMA1: 1
+    TMA2: 2
+    PDX1: 2
+  Slide:
+    WSI: 1
+    TCGA: 2
+
+
+# parameters used to generate tumor masks for the patches used to train these models
+TumorParams:
+  tumorPatchSize: 256
+  tumorStride: 16
+  tumorDsf: 4
+
+
+# parameters are used for augmentation
+augmentations: 
+    hAlpha: !!python/tuple [0.93, 1.08]
+    eAlpha: !!python/tuple [0.93, 1.08]
+    rAlpha: !!python/tuple [0.93, 1.08]
