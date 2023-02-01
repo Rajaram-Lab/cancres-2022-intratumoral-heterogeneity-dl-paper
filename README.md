@@ -39,7 +39,7 @@ All code was developed and tested on a singularity image based on Ubuntu 18.04 r
 
 ## Citation
 If you find our work helpful or use our code/data in your research, please consider citing our paper:
-'''
+```
 @article{article,
    author = {Acosta, Paul H and Panwar, Vandana and Jamarle, Vipul and Christie, Alana and Jasti, Jay and   Margulis, Vitaly and Rakheja, Dinesh and Cheville, John and Leibovish, Bradley C and Parker, Alexander and Brugarolas, James and Kapur, Payal and Rajaram, Satwik},
    year = {2022},
@@ -51,4 +51,5 @@ If you find our work helpful or use our code/data in your research, please consi
    journal = {Cancer Research},
    doi = {10.1038/s41551-022-00952-9}
 }
-'''
+```
+
