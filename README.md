@@ -39,15 +39,16 @@ All code was developed and tested on a singularity image based on Ubuntu 18.04 r
 
 ## Citation
 If you find our work helpful or use our code/data in your research, please consider citing our paper:
+'''
 @article{article,
-author = {Acosta, Paul H and Panwar, Vandana and Jamarle, Vipul and Christie, Alana and Jasti, Jay and Margulis, Vitaly and Rakheja, Dinesh and Cheville, John and Leibovish, Bradley C and Parker, Alexander and Brugarolas, James and Kapur, Payal and Rajaram, Satwik},
-year = {2022},
-month = {08},
-pages = {2792–2806},
-title = {Intratumoral Resolution of Driver Gene Mutation Heterogeneity in Renal Cancer Using Deep Learning},
-volume = {82},
-issue = {15},
-journal = {Cancer Research},
-doi = {10.1038/s41551-022-00952-9},
-url = {https://aacrjournals.org/cancerres/article/82/15/2792/707325/Intratumoral-Resolution-of-Driver-Gene-Mutation}
+   author = {Acosta, Paul H and Panwar, Vandana and Jamarle, Vipul and Christie, Alana and Jasti, Jay and   Margulis, Vitaly and Rakheja, Dinesh and Cheville, John and Leibovish, Bradley C and Parker, Alexander and Brugarolas, James and Kapur, Payal and Rajaram, Satwik},
+   year = {2022},
+   month = {08},
+   pages = {2792–2806},
+   title = {Intratumoral Resolution of Driver Gene Mutation Heterogeneity in Renal Cancer Using Deep Learning},
+   volume = {82},
+   issue = {15},
+   journal = {Cancer Research},
+   doi = {10.1038/s41551-022-00952-9}
 }
+'''
