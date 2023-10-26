@@ -1,5 +1,5 @@
 # Deep learning enables detection of intratumoral driver gene mutation heterogeneity in renal cancer
-Code for the paper "Deep learning enables detection of intratumoral driver gene mutation heterogeneity in renal cancer" by Acosta *et al* currently under provisional acceptance in [Cancer Research](https://aacrjournals.org/cancerres)
+Code for the paper " Intratumoral Resolution of Driver Gene Mutation Heterogeneity in Renal Cancer Using Deep Learning " by Acosta *et al* currently under provisional acceptance in [Cancer Research]([https://aacrjournals.org/cancerres](https://aacrjournals.org/cancerres/article/82/15/2792/707325/Intratumoral-Resolution-of-Driver-Gene-Mutation))
 
 ![fig1](Images/Git_Overview_v5.png)
 
